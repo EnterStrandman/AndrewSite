@@ -1,0 +1,135 @@
+/*CSS Andrew Personal Website*/
+
+
+body{
+	height:100%;
+	position: static;
+	padding-left: 25%;
+	padding-right: 25%;
+	background: linear-gradient(#4286f4, white) fixed;	
+	background-size: cover;
+    background-repeat:no-repeat;
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+	width: 60%;
+	height:60px;   /* Height of the footer */
+	/*background:rgb(45,91,167);*/
+}
+
+
+.buttonContainer{
+	
+}
+
+#contactInfo{
+	position: relative;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	background-color:#807F83;
+	height: 350px;
+}
+
+#tabButton{
+	border-color: black;
+	border-bottom: none;
+    background-color:#807F83;
+    color:#FFFFFF;
+    height: 50px;
+    width: 120px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#tabButtonActivePage{
+	border-color: black;
+	border-bottom: #807F83;
+    background-color:#4c4c4e;
+    color:#FFFFFF;
+    height: 50px;
+    width: 120px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#tabButton:hover, #tabButtonActivePage:hover{
+	font-size: 105%;
+	font-weight: bold;
+	border-bottom-color: #807F83;
+}
+#aboutMe{
+	position: relative;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	background-color:#807F83;
+	height: 350px;
+}
+
+#pictureSlider {
+	background-color:#807F83;
+	height: 350px;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+}
+
+#portrait{
+	padding-top: 5%;
+	padding-left: 30%;
+	max-height: 330px;
+}
+
+/*COPIED AND PASTED STUFF*/
+/*W3 Schools*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.mySlides {
+	display:none;
+}

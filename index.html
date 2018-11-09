@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3D Designs</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--icons-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+	<header>
+		<!--logo and buttons-->
+		<a href="index.html">
+		  	<img src="logoGold.png" alt="LOGO" style="height: 200px; width: 350px;">
+		</a>
+		
+	</header>
+
+	<div class="buttonContainer">
+		<a href="index.html"><button id="tabButtonActivePage">Home</button></a>
+		<a href="about.html"><button id="tabButton">About Me</button></a>
+		<a href="contact.html"><button id="tabButton">Contact Me</button></a>
+		<a href="https://www.thingiverse.com/astrand13/designs" target="_blank" style="float: right;"><button id="tabButton">See More of My Creations</button></a>
+		<br>
+		<div class="col-sm-6" id="aboutMe">
+			INSERT TEXT all over this mess so we can test things
+		</div>
+		<div class="col-sm-6" id="pictureSlider">
+			<div class="w3-content w3-section" style="max-width:500px">
+			  	<img class="mySlides w3-animate-top" src="https://cdn.thingiverse.com/renders/ed/1a/17/73/2b/165e282e0ae0e357323a87d42e68ecb9_preview_featured.jpg" style="width:100%">
+			  	<img class="mySlides w3-animate-bottom" src="https://cdn.thingiverse.com/renders/cb/d5/cc/27/17/55e199237db50094b0349332303a8ca6_preview_featured.JPG" style="width:100%">
+			  	<img class="mySlides w3-animate-top" src="https://cdn.thingiverse.com/renders/6e/74/d8/ce/ac/56b8cb4851321280ca70815e662d8d13_preview_featured.JPG" style="width:100%">
+			  	<img class="mySlides w3-animate-bottom" src="https://cdn.thingiverse.com/renders/46/d8/28/78/c9/589485b034caae075e8cc17706c97456_preview_featured.JPG" style="width:100%">
+			</div>
+
+		</div>
+	</div>
+
+	<footer style="padding-bottom: 65px;">
+		<!--icons-->
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+	</footer>
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+		    var i;
+		    var x = document.getElementsByClassName("mySlides");
+		    for (i = 0; i < x.length; i++) {
+		      x[i].style.display = "none";  
+		    }
+		    myIndex++;
+		    if (myIndex > x.length) {myIndex = 1}    
+		    x[myIndex-1].style.display = "block";  
+		    setTimeout(carousel, 2500);    
+		}
+	</script>
+</body>
+<!-- IMPORT BOOTSTRAP -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
